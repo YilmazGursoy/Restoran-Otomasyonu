@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    
+    [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+    
+        configuration.applicationId = @"ImSvYqXxpfcYYW7qxUlN2W1Vedmc2d9USH2OQz6n";
+        
+        configuration.clientKey = @"XPyzx3oPwwz7PVHpJKWXHnbvGNEKwdtv6teoFdAN";
+    
+    }]];
+    
+    
+    [PFUser logInWithUsernameInBackground:@"huseyinGunalp" password:@"12345" block:^(PFUser * _Nullable user, NSError * _Nullable error) {
+        
+        if( !error ) {
+            
+            NSLog(@"Giriş Yapıldı");
+            
+        }
+        
+    }];
+
+    
     return YES;
 }
 
