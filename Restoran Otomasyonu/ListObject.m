@@ -11,7 +11,7 @@
 
 @implementation ListObject
 
-+(ListObject*)getListObjectWithDeskID:(int)deskID andTotalPrice:(int)totalPrice andDate:(NSString*)date andHour:(NSString*)hour {
++(ListObject*)getListObjectWithDeskID:(int)deskID andTotalPrice:(double)totalPrice andDate:(NSString*)date andHour:(NSString*)hour {
     
     ListObject *object = [[ListObject alloc] init];
     

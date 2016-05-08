@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OrderObject.h">
-   </FileRef>
-   <FileRef
-      location = "group:OrderObject.m">
-   </FileRef>
-   <FileRef
       location = "group:Restoran Otomasyonu.xcodeproj">
    </FileRef>
    <FileRef

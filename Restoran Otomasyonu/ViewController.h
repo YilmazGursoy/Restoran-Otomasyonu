@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoryHelper.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController < CategoryHelperDelegate >
 
 
 @end

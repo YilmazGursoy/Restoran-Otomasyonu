@@ -12,12 +12,12 @@
 
 @property (nonatomic) int deskID;
 
-@property (nonatomic) int totalPrice;
+@property (nonatomic) double totalPrice;
 
 @property (strong, nonatomic) NSString *date;
 
 @property (strong, nonatomic) NSString *hour;
 
-+(ListObject*)getListObjectWithDeskID:(int)deskID andTotalPrice:(int)totalPrice andDate:(NSString*)date andHour:(NSString*)hour;
++(ListObject*)getListObjectWithDeskID:(int)deskID andTotalPrice:(double)totalPrice andDate:(NSString*)date andHour:(NSString*)hour;
 
 @end

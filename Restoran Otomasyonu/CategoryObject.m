@@ -11,7 +11,7 @@
 @implementation CategoryObject
 
 
-+(CategoryObject*)getCategory:(NSString*)categoryDesc andCategoryState:(int)categoryState andCategoryID:(int)categoryID {
++(CategoryObject*)getCategoryWithDesc:(NSString*)categoryDesc andCategoryState:(int)categoryState andCategoryID:(int)categoryID {
 
 
     CategoryObject *object = [[CategoryObject alloc] init];

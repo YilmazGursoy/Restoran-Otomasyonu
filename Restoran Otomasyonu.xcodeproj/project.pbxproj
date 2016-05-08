@@ -20,6 +20,19 @@
 		D2D014001CDCC81900BE4BCF /* ProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D013F11CDCC81900BE4BCF /* ProductObject.m */; };
 		D2D0140D1CDCCE7700BE4BCF /* OrderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0140C1CDCCE7700BE4BCF /* OrderObject.m */; };
 		D2D014101CDCD1AB00BE4BCF /* ListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0140F1CDCD1AB00BE4BCF /* ListObject.m */; };
+		D2D014131CDCEFD500BE4BCF /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014121CDCEFD500BE4BCF /* Server.m */; };
+		D2D0141E1CDD0CA700BE4BCF /* CategoryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0141D1CDD0CA700BE4BCF /* CategoryHelper.m */; };
+		D2D014211CDD0CCC00BE4BCF /* CategoryServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014201CDD0CCC00BE4BCF /* CategoryServer.m */; };
+		D2D014251CDD169C00BE4BCF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014231CDD169C00BE4BCF /* LoginViewController.m */; };
+		D2D014261CDD169C00BE4BCF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D014241CDD169C00BE4BCF /* LoginViewController.xib */; };
+		D2D0142A1CDD445D00BE4BCF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014291CDD445D00BE4BCF /* BaseViewController.m */; };
+		D2D0142D1CDD465500BE4BCF /* LoginServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0142C1CDD465500BE4BCF /* LoginServer.m */; };
+		D2D014351CDDD7EE00BE4BCF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014331CDDD7EE00BE4BCF /* MainViewController.m */; };
+		D2D014361CDDD7EE00BE4BCF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D014341CDDD7EE00BE4BCF /* MainViewController.xib */; };
+		D2D0143A1CDE59AC00BE4BCF /* DailyListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014381CDE59AC00BE4BCF /* DailyListTableViewCell.m */; };
+		D2D0143B1CDE59AC00BE4BCF /* DailyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D014391CDE59AC00BE4BCF /* DailyListTableViewCell.xib */; };
+		D2D0143F1CDE957A00BE4BCF /* DailyListServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0143E1CDE957A00BE4BCF /* DailyListServer.m */; };
+		D2D014421CDE95E500BE4BCF /* DailyListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D014411CDE95E500BE4BCF /* DailyListHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +80,29 @@
 		D2D0140C1CDCCE7700BE4BCF /* OrderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderObject.m; sourceTree = "<group>"; };
 		D2D0140E1CDCD1AB00BE4BCF /* ListObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListObject.h; sourceTree = "<group>"; };
 		D2D0140F1CDCD1AB00BE4BCF /* ListObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListObject.m; sourceTree = "<group>"; };
+		D2D014111CDCEFD500BE4BCF /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		D2D014121CDCEFD500BE4BCF /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		D2D0141C1CDD0CA700BE4BCF /* CategoryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryHelper.h; sourceTree = "<group>"; };
+		D2D0141D1CDD0CA700BE4BCF /* CategoryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryHelper.m; sourceTree = "<group>"; };
+		D2D0141F1CDD0CCC00BE4BCF /* CategoryServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryServer.h; sourceTree = "<group>"; };
+		D2D014201CDD0CCC00BE4BCF /* CategoryServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryServer.m; sourceTree = "<group>"; };
+		D2D014221CDD169C00BE4BCF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D2D014231CDD169C00BE4BCF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D2D014241CDD169C00BE4BCF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D2D014281CDD445D00BE4BCF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D2D014291CDD445D00BE4BCF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D2D0142B1CDD465500BE4BCF /* LoginServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginServer.h; sourceTree = "<group>"; };
+		D2D0142C1CDD465500BE4BCF /* LoginServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginServer.m; sourceTree = "<group>"; };
+		D2D014321CDDD7EE00BE4BCF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D2D014331CDDD7EE00BE4BCF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D2D014341CDDD7EE00BE4BCF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D2D014371CDE59AC00BE4BCF /* DailyListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyListTableViewCell.h; sourceTree = "<group>"; };
+		D2D014381CDE59AC00BE4BCF /* DailyListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyListTableViewCell.m; sourceTree = "<group>"; };
+		D2D014391CDE59AC00BE4BCF /* DailyListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyListTableViewCell.xib; sourceTree = "<group>"; };
+		D2D0143D1CDE957A00BE4BCF /* DailyListServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyListServer.h; sourceTree = "<group>"; };
+		D2D0143E1CDE957A00BE4BCF /* DailyListServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyListServer.m; sourceTree = "<group>"; };
+		D2D014401CDE95E500BE4BCF /* DailyListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyListHelper.h; sourceTree = "<group>"; };
+		D2D014411CDE95E500BE4BCF /* DailyListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyListHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +175,9 @@
 			children = (
 				D2D013A51CDCB41E00BE4BCF /* AppDelegate.h */,
 				D2D013A61CDCB41E00BE4BCF /* AppDelegate.m */,
-				D2D013A81CDCB41E00BE4BCF /* ViewController.h */,
-				D2D013A91CDCB41E00BE4BCF /* ViewController.m */,
-				D2D013AB1CDCB41E00BE4BCF /* Main.storyboard */,
+				D2D014281CDD445D00BE4BCF /* BaseViewController.h */,
+				D2D014291CDD445D00BE4BCF /* BaseViewController.m */,
+				D2D014271CDD16A000BE4BCF /* Controllers */,
 				D2D013AE1CDCB41E00BE4BCF /* Assets.xcassets */,
 				D2D013B01CDCB41E00BE4BCF /* LaunchScreen.storyboard */,
 				D2D013B31CDCB41E00BE4BCF /* Info.plist */,
@@ -155,6 +191,9 @@
 			children = (
 				D2D014071CDCC82800BE4BCF /* DataCore */,
 				D2D013A31CDCB41E00BE4BCF /* main.m */,
+				D2D013A81CDCB41E00BE4BCF /* ViewController.h */,
+				D2D013A91CDCB41E00BE4BCF /* ViewController.m */,
+				D2D013AB1CDCB41E00BE4BCF /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,6 +219,8 @@
 		D2D014071CDCC82800BE4BCF /* DataCore */ = {
 			isa = PBXGroup;
 			children = (
+				D2D0141B1CDD07B200BE4BCF /* Helpers */,
+				D2D014141CDCEFDC00BE4BCF /* Servers */,
 				D2D0140A1CDCCB9800BE4BCF /* Objects */,
 			);
 			name = DataCore;
@@ -198,6 +239,64 @@
 				D2D0140F1CDCD1AB00BE4BCF /* ListObject.m */,
 			);
 			name = Objects;
+			sourceTree = "<group>";
+		};
+		D2D014141CDCEFDC00BE4BCF /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D014111CDCEFD500BE4BCF /* Server.h */,
+				D2D014121CDCEFD500BE4BCF /* Server.m */,
+				D2D0142B1CDD465500BE4BCF /* LoginServer.h */,
+				D2D0142C1CDD465500BE4BCF /* LoginServer.m */,
+				D2D0141F1CDD0CCC00BE4BCF /* CategoryServer.h */,
+				D2D014201CDD0CCC00BE4BCF /* CategoryServer.m */,
+				D2D0143D1CDE957A00BE4BCF /* DailyListServer.h */,
+				D2D0143E1CDE957A00BE4BCF /* DailyListServer.m */,
+			);
+			name = Servers;
+			sourceTree = "<group>";
+		};
+		D2D0141B1CDD07B200BE4BCF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D0141C1CDD0CA700BE4BCF /* CategoryHelper.h */,
+				D2D0141D1CDD0CA700BE4BCF /* CategoryHelper.m */,
+				D2D014401CDE95E500BE4BCF /* DailyListHelper.h */,
+				D2D014411CDE95E500BE4BCF /* DailyListHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D2D014271CDD16A000BE4BCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D0142E1CDDD70200BE4BCF /* LoginViewController */,
+				D2D014321CDDD7EE00BE4BCF /* MainViewController.h */,
+				D2D014331CDDD7EE00BE4BCF /* MainViewController.m */,
+				D2D014341CDDD7EE00BE4BCF /* MainViewController.xib */,
+				D2D0143C1CDE59B100BE4BCF /* Cells */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D2D0142E1CDDD70200BE4BCF /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D014221CDD169C00BE4BCF /* LoginViewController.h */,
+				D2D014231CDD169C00BE4BCF /* LoginViewController.m */,
+				D2D014241CDD169C00BE4BCF /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		D2D0143C1CDE59B100BE4BCF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D2D014371CDE59AC00BE4BCF /* DailyListTableViewCell.h */,
+				D2D014381CDE59AC00BE4BCF /* DailyListTableViewCell.m */,
+				D2D014391CDE59AC00BE4BCF /* DailyListTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +405,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D014261CDD169C00BE4BCF /* LoginViewController.xib in Resources */,
 				D2D013B21CDCB41E00BE4BCF /* LaunchScreen.storyboard in Resources */,
+				D2D014361CDDD7EE00BE4BCF /* MainViewController.xib in Resources */,
+				D2D0143B1CDE59AC00BE4BCF /* DailyListTableViewCell.xib in Resources */,
 				D2D013AF1CDCB41E00BE4BCF /* Assets.xcassets in Resources */,
 				D2D013AD1CDCB41E00BE4BCF /* Main.storyboard in Resources */,
 			);
@@ -382,11 +484,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D0140D1CDCCE7700BE4BCF /* OrderObject.m in Sources */,
+				D2D0142A1CDD445D00BE4BCF /* BaseViewController.m in Sources */,
+				D2D0143F1CDE957A00BE4BCF /* DailyListServer.m in Sources */,
 				D2D013AA1CDCB41E00BE4BCF /* ViewController.m in Sources */,
+				D2D014211CDD0CCC00BE4BCF /* CategoryServer.m in Sources */,
+				D2D014131CDCEFD500BE4BCF /* Server.m in Sources */,
 				D2D014101CDCD1AB00BE4BCF /* ListObject.m in Sources */,
 				D2D013A71CDCB41E00BE4BCF /* AppDelegate.m in Sources */,
 				D2D013FD1CDCC81900BE4BCF /* CategoryObject.m in Sources */,
+				D2D014421CDE95E500BE4BCF /* DailyListHelper.m in Sources */,
+				D2D0143A1CDE59AC00BE4BCF /* DailyListTableViewCell.m in Sources */,
 				D2D013A41CDCB41E00BE4BCF /* main.m in Sources */,
+				D2D0141E1CDD0CA700BE4BCF /* CategoryHelper.m in Sources */,
+				D2D014251CDD169C00BE4BCF /* LoginViewController.m in Sources */,
+				D2D014351CDDD7EE00BE4BCF /* MainViewController.m in Sources */,
+				D2D0142D1CDD465500BE4BCF /* LoginServer.m in Sources */,
 				D2D014001CDCC81900BE4BCF /* ProductObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

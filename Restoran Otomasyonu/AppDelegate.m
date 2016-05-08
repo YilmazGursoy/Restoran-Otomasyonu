@@ -27,18 +27,6 @@
     
     }]];
     
-    
-    [PFUser logInWithUsernameInBackground:@"huseyinGunalp" password:@"12345" block:^(PFUser * _Nullable user, NSError * _Nullable error) {
-        
-        if( !error ) {
-            
-            NSLog(@"Giriş Yapıldı");
-            
-        }
-        
-    }];
-
-    
     return YES;
 }
 

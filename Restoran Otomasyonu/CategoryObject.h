@@ -18,6 +18,6 @@
 
 @property (nonatomic) int categoryID;
 
-+(CategoryObject*)getCategory:(NSString*)categoryDesc andCategoryState:(int)categoryState andCategoryID:(int)categoryID;
++(CategoryObject*)getCategoryWithDesc:(NSString*)categoryDesc andCategoryState:(int)categoryState andCategoryID:(int)categoryID;
 
 @end
