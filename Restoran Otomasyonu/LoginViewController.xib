@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="arp-R5-I7K">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="arp-R5-I7K">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="600" id="gfM-Ac-mxm"/>
@@ -33,7 +33,7 @@
                         </mask>
                     </variation>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restoran Otomasyon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="6C1-Cb-Fxg">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Restoran Otomasyon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="6C1-Cb-Fxg">
                     <rect key="frame" x="149" y="147" width="303" height="32"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="32" id="wv2-Fr-aSY"/>
@@ -164,6 +164,19 @@
                     <exclude reference="pGP-gF-3qq"/>
                 </mask>
                 <mask key="constraints">
+                    <exclude reference="438-OH-bih"/>
+                    <exclude reference="LIr-Qf-tCu"/>
+                    <exclude reference="zFn-ff-m89"/>
+                    <exclude reference="hdy-CC-zgO"/>
+                    <exclude reference="qdY-63-in9"/>
+                    <exclude reference="6Vg-fO-Zom"/>
+                    <exclude reference="bvE-Me-V3a"/>
+                    <exclude reference="gdP-4b-MSy"/>
+                    <exclude reference="Cfa-ud-X2X"/>
+                    <exclude reference="MuO-ji-qhH"/>
+                    <exclude reference="PmC-dQ-kKH"/>
+                    <exclude reference="RKD-yc-Fvb"/>
+                    <exclude reference="bmr-pq-J7S"/>
                     <exclude reference="C56-Mk-IqS"/>
                     <exclude reference="SDz-gW-lm2"/>
                     <exclude reference="qbi-7U-j5a"/>
@@ -173,19 +186,6 @@
                     <exclude reference="XCX-yI-c6O"/>
                     <exclude reference="uFb-DP-X1x"/>
                     <exclude reference="vee-UP-G5Q"/>
-                    <exclude reference="Cfa-ud-X2X"/>
-                    <exclude reference="MuO-ji-qhH"/>
-                    <exclude reference="PmC-dQ-kKH"/>
-                    <exclude reference="RKD-yc-Fvb"/>
-                    <exclude reference="bmr-pq-J7S"/>
-                    <exclude reference="438-OH-bih"/>
-                    <exclude reference="LIr-Qf-tCu"/>
-                    <exclude reference="zFn-ff-m89"/>
-                    <exclude reference="6Vg-fO-Zom"/>
-                    <exclude reference="bvE-Me-V3a"/>
-                    <exclude reference="gdP-4b-MSy"/>
-                    <exclude reference="hdy-CC-zgO"/>
-                    <exclude reference="qdY-63-in9"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -197,6 +197,19 @@
                     <include reference="pGP-gF-3qq"/>
                 </mask>
                 <mask key="constraints">
+                    <include reference="438-OH-bih"/>
+                    <include reference="LIr-Qf-tCu"/>
+                    <include reference="zFn-ff-m89"/>
+                    <include reference="hdy-CC-zgO"/>
+                    <include reference="qdY-63-in9"/>
+                    <include reference="6Vg-fO-Zom"/>
+                    <include reference="bvE-Me-V3a"/>
+                    <include reference="gdP-4b-MSy"/>
+                    <include reference="Cfa-ud-X2X"/>
+                    <include reference="MuO-ji-qhH"/>
+                    <include reference="PmC-dQ-kKH"/>
+                    <include reference="RKD-yc-Fvb"/>
+                    <include reference="bmr-pq-J7S"/>
                     <include reference="C56-Mk-IqS"/>
                     <include reference="SDz-gW-lm2"/>
                     <include reference="qbi-7U-j5a"/>
@@ -206,19 +219,6 @@
                     <include reference="XCX-yI-c6O"/>
                     <include reference="uFb-DP-X1x"/>
                     <include reference="vee-UP-G5Q"/>
-                    <include reference="Cfa-ud-X2X"/>
-                    <include reference="MuO-ji-qhH"/>
-                    <include reference="PmC-dQ-kKH"/>
-                    <include reference="RKD-yc-Fvb"/>
-                    <include reference="bmr-pq-J7S"/>
-                    <include reference="438-OH-bih"/>
-                    <include reference="LIr-Qf-tCu"/>
-                    <include reference="zFn-ff-m89"/>
-                    <include reference="6Vg-fO-Zom"/>
-                    <include reference="bvE-Me-V3a"/>
-                    <include reference="gdP-4b-MSy"/>
-                    <include reference="hdy-CC-zgO"/>
-                    <include reference="qdY-63-in9"/>
                 </mask>
             </variation>
         </view>

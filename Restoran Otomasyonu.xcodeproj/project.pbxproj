@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4EFB10A6AC7519D6F8DC89E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 417056AA21FDB61CE550978D /* libPods.a */; };
+		D25039001CEF2B5000DE7890 /* InsideOfDeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25038FE1CEF2B5000DE7890 /* InsideOfDeskViewController.m */; };
+		D25039011CEF2B5000DE7890 /* InsideOfDeskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25038FF1CEF2B5000DE7890 /* InsideOfDeskViewController.xib */; };
+		D25039071CEF2BC000DE7890 /* DeskInsideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D25039051CEF2BC000DE7890 /* DeskInsideTableViewCell.m */; };
+		D25039081CEF2BC000DE7890 /* DeskInsideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25039061CEF2BC000DE7890 /* DeskInsideTableViewCell.xib */; };
+		D250390B1CEF37D900DE7890 /* ProductServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D250390A1CEF37D900DE7890 /* ProductServer.m */; };
+		D250390E1CEF389400DE7890 /* ProductHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D250390D1CEF389400DE7890 /* ProductHelper.m */; };
+		D2BFA0751CF0C38900626CCE /* OrderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA0741CF0C38900626CCE /* OrderHelper.m */; };
+		D2BFA0781CF0C39D00626CCE /* OrderServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA0771CF0C39D00626CCE /* OrderServer.m */; };
+		D2BFA07B1CF0CE5000626CCE /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA07A1CF0CE5000626CCE /* Helper.m */; };
+		D2BFA07F1CF195AF00626CCE /* OrdersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA07D1CF195AF00626CCE /* OrdersListViewController.m */; };
+		D2BFA0801CF195AF00626CCE /* OrdersListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA07E1CF195AF00626CCE /* OrdersListViewController.xib */; };
+		D2BFA0851CF1964500626CCE /* OrdersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA0831CF1964500626CCE /* OrdersTableViewCell.m */; };
+		D2BFA0861CF1964500626CCE /* OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA0841CF1964500626CCE /* OrdersTableViewCell.xib */; };
 		D2D013A41CDCB41E00BE4BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D013A31CDCB41E00BE4BCF /* main.m */; };
 		D2D013A71CDCB41E00BE4BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D013A61CDCB41E00BE4BCF /* AppDelegate.m */; };
 		D2D013AA1CDCB41E00BE4BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D013A91CDCB41E00BE4BCF /* ViewController.m */; };
@@ -56,6 +69,28 @@
 		417056AA21FDB61CE550978D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0F76AA15ADF0FCCDC7087F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B9C779028B7AAA027B48D0C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D25038FD1CEF2B5000DE7890 /* InsideOfDeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsideOfDeskViewController.h; sourceTree = "<group>"; };
+		D25038FE1CEF2B5000DE7890 /* InsideOfDeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsideOfDeskViewController.m; sourceTree = "<group>"; };
+		D25038FF1CEF2B5000DE7890 /* InsideOfDeskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsideOfDeskViewController.xib; sourceTree = "<group>"; };
+		D25039041CEF2BC000DE7890 /* DeskInsideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeskInsideTableViewCell.h; sourceTree = "<group>"; };
+		D25039051CEF2BC000DE7890 /* DeskInsideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeskInsideTableViewCell.m; sourceTree = "<group>"; };
+		D25039061CEF2BC000DE7890 /* DeskInsideTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeskInsideTableViewCell.xib; sourceTree = "<group>"; };
+		D25039091CEF37D800DE7890 /* ProductServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductServer.h; sourceTree = "<group>"; };
+		D250390A1CEF37D900DE7890 /* ProductServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductServer.m; sourceTree = "<group>"; };
+		D250390C1CEF389400DE7890 /* ProductHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductHelper.h; sourceTree = "<group>"; };
+		D250390D1CEF389400DE7890 /* ProductHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductHelper.m; sourceTree = "<group>"; };
+		D2BFA0731CF0C38900626CCE /* OrderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHelper.h; sourceTree = "<group>"; };
+		D2BFA0741CF0C38900626CCE /* OrderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHelper.m; sourceTree = "<group>"; };
+		D2BFA0761CF0C39D00626CCE /* OrderServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderServer.h; sourceTree = "<group>"; };
+		D2BFA0771CF0C39D00626CCE /* OrderServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderServer.m; sourceTree = "<group>"; };
+		D2BFA0791CF0CE5000626CCE /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		D2BFA07A1CF0CE5000626CCE /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		D2BFA07C1CF195AF00626CCE /* OrdersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersListViewController.h; sourceTree = "<group>"; };
+		D2BFA07D1CF195AF00626CCE /* OrdersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersListViewController.m; sourceTree = "<group>"; };
+		D2BFA07E1CF195AF00626CCE /* OrdersListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrdersListViewController.xib; sourceTree = "<group>"; };
+		D2BFA0821CF1964500626CCE /* OrdersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersTableViewCell.h; sourceTree = "<group>"; };
+		D2BFA0831CF1964500626CCE /* OrdersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersTableViewCell.m; sourceTree = "<group>"; };
+		D2BFA0841CF1964500626CCE /* OrdersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrdersTableViewCell.xib; sourceTree = "<group>"; };
 		D2D0139F1CDCB41E00BE4BCF /* Restoran Otomasyonu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restoran Otomasyonu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D013A31CDCB41E00BE4BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2D013A51CDCB41E00BE4BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +183,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D25039021CEF2B6700DE7890 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D014321CDDD7EE00BE4BCF /* MainViewController.h */,
+				D2D014331CDDD7EE00BE4BCF /* MainViewController.m */,
+				D2D014341CDDD7EE00BE4BCF /* MainViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		D25039031CEF2B7200DE7890 /* InsideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D25038FD1CEF2B5000DE7890 /* InsideOfDeskViewController.h */,
+				D25038FE1CEF2B5000DE7890 /* InsideOfDeskViewController.m */,
+				D25038FF1CEF2B5000DE7890 /* InsideOfDeskViewController.xib */,
+			);
+			name = InsideViewController;
+			sourceTree = "<group>";
+		};
+		D2BFA0811CF195BE00626CCE /* OrdersListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA07C1CF195AF00626CCE /* OrdersListViewController.h */,
+				D2BFA07D1CF195AF00626CCE /* OrdersListViewController.m */,
+				D2BFA07E1CF195AF00626CCE /* OrdersListViewController.xib */,
+			);
+			name = OrdersListViewController;
+			sourceTree = "<group>";
+		};
 		D2D013961CDCB41E00BE4BCF = {
 			isa = PBXGroup;
 			children = (
@@ -175,8 +240,6 @@
 			children = (
 				D2D013A51CDCB41E00BE4BCF /* AppDelegate.h */,
 				D2D013A61CDCB41E00BE4BCF /* AppDelegate.m */,
-				D2D014281CDD445D00BE4BCF /* BaseViewController.h */,
-				D2D014291CDD445D00BE4BCF /* BaseViewController.m */,
 				D2D014271CDD16A000BE4BCF /* Controllers */,
 				D2D013AE1CDCB41E00BE4BCF /* Assets.xcassets */,
 				D2D013B01CDCB41E00BE4BCF /* LaunchScreen.storyboard */,
@@ -219,16 +282,28 @@
 		D2D014071CDCC82800BE4BCF /* DataCore */ = {
 			isa = PBXGroup;
 			children = (
-				D2D0141B1CDD07B200BE4BCF /* Helpers */,
-				D2D014141CDCEFDC00BE4BCF /* Servers */,
-				D2D0140A1CDCCB9800BE4BCF /* Objects */,
-			);
-			name = DataCore;
-			sourceTree = "<group>";
-		};
-		D2D0140A1CDCCB9800BE4BCF /* Objects */ = {
-			isa = PBXGroup;
-			children = (
+				D2BFA0791CF0CE5000626CCE /* Helper.h */,
+				D2BFA07A1CF0CE5000626CCE /* Helper.m */,
+				D2BFA0731CF0C38900626CCE /* OrderHelper.h */,
+				D2BFA0741CF0C38900626CCE /* OrderHelper.m */,
+				D250390C1CEF389400DE7890 /* ProductHelper.h */,
+				D250390D1CEF389400DE7890 /* ProductHelper.m */,
+				D2D0141C1CDD0CA700BE4BCF /* CategoryHelper.h */,
+				D2D0141D1CDD0CA700BE4BCF /* CategoryHelper.m */,
+				D2D014401CDE95E500BE4BCF /* DailyListHelper.h */,
+				D2D014411CDE95E500BE4BCF /* DailyListHelper.m */,
+				D2D014111CDCEFD500BE4BCF /* Server.h */,
+				D2D014121CDCEFD500BE4BCF /* Server.m */,
+				D2D0142B1CDD465500BE4BCF /* LoginServer.h */,
+				D2D0142C1CDD465500BE4BCF /* LoginServer.m */,
+				D2BFA0761CF0C39D00626CCE /* OrderServer.h */,
+				D2BFA0771CF0C39D00626CCE /* OrderServer.m */,
+				D25039091CEF37D800DE7890 /* ProductServer.h */,
+				D250390A1CEF37D900DE7890 /* ProductServer.m */,
+				D2D0141F1CDD0CCC00BE4BCF /* CategoryServer.h */,
+				D2D014201CDD0CCC00BE4BCF /* CategoryServer.m */,
+				D2D0143D1CDE957A00BE4BCF /* DailyListServer.h */,
+				D2D0143E1CDE957A00BE4BCF /* DailyListServer.m */,
 				D2D013EA1CDCC81900BE4BCF /* CategoryObject.h */,
 				D2D013EB1CDCC81900BE4BCF /* CategoryObject.m */,
 				D2D013F01CDCC81900BE4BCF /* ProductObject.h */,
@@ -238,42 +313,18 @@
 				D2D0140E1CDCD1AB00BE4BCF /* ListObject.h */,
 				D2D0140F1CDCD1AB00BE4BCF /* ListObject.m */,
 			);
-			name = Objects;
-			sourceTree = "<group>";
-		};
-		D2D014141CDCEFDC00BE4BCF /* Servers */ = {
-			isa = PBXGroup;
-			children = (
-				D2D014111CDCEFD500BE4BCF /* Server.h */,
-				D2D014121CDCEFD500BE4BCF /* Server.m */,
-				D2D0142B1CDD465500BE4BCF /* LoginServer.h */,
-				D2D0142C1CDD465500BE4BCF /* LoginServer.m */,
-				D2D0141F1CDD0CCC00BE4BCF /* CategoryServer.h */,
-				D2D014201CDD0CCC00BE4BCF /* CategoryServer.m */,
-				D2D0143D1CDE957A00BE4BCF /* DailyListServer.h */,
-				D2D0143E1CDE957A00BE4BCF /* DailyListServer.m */,
-			);
-			name = Servers;
-			sourceTree = "<group>";
-		};
-		D2D0141B1CDD07B200BE4BCF /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D2D0141C1CDD0CA700BE4BCF /* CategoryHelper.h */,
-				D2D0141D1CDD0CA700BE4BCF /* CategoryHelper.m */,
-				D2D014401CDE95E500BE4BCF /* DailyListHelper.h */,
-				D2D014411CDE95E500BE4BCF /* DailyListHelper.m */,
-			);
-			name = Helpers;
+			name = DataCore;
 			sourceTree = "<group>";
 		};
 		D2D014271CDD16A000BE4BCF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D2D014281CDD445D00BE4BCF /* BaseViewController.h */,
+				D2D014291CDD445D00BE4BCF /* BaseViewController.m */,
 				D2D0142E1CDDD70200BE4BCF /* LoginViewController */,
-				D2D014321CDDD7EE00BE4BCF /* MainViewController.h */,
-				D2D014331CDDD7EE00BE4BCF /* MainViewController.m */,
-				D2D014341CDDD7EE00BE4BCF /* MainViewController.xib */,
+				D25039021CEF2B6700DE7890 /* MainViewController */,
+				D25039031CEF2B7200DE7890 /* InsideViewController */,
+				D2BFA0811CF195BE00626CCE /* OrdersListViewController */,
 				D2D0143C1CDE59B100BE4BCF /* Cells */,
 			);
 			name = Controllers;
@@ -292,9 +343,15 @@
 		D2D0143C1CDE59B100BE4BCF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				D25039041CEF2BC000DE7890 /* DeskInsideTableViewCell.h */,
+				D25039051CEF2BC000DE7890 /* DeskInsideTableViewCell.m */,
+				D25039061CEF2BC000DE7890 /* DeskInsideTableViewCell.xib */,
 				D2D014371CDE59AC00BE4BCF /* DailyListTableViewCell.h */,
 				D2D014381CDE59AC00BE4BCF /* DailyListTableViewCell.m */,
 				D2D014391CDE59AC00BE4BCF /* DailyListTableViewCell.xib */,
+				D2BFA0821CF1964500626CCE /* OrdersTableViewCell.h */,
+				D2BFA0831CF1964500626CCE /* OrdersTableViewCell.m */,
+				D2BFA0841CF1964500626CCE /* OrdersTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -405,9 +462,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BFA0861CF1964500626CCE /* OrdersTableViewCell.xib in Resources */,
 				D2D014261CDD169C00BE4BCF /* LoginViewController.xib in Resources */,
 				D2D013B21CDCB41E00BE4BCF /* LaunchScreen.storyboard in Resources */,
+				D25039081CEF2BC000DE7890 /* DeskInsideTableViewCell.xib in Resources */,
 				D2D014361CDDD7EE00BE4BCF /* MainViewController.xib in Resources */,
+				D2BFA0801CF195AF00626CCE /* OrdersListViewController.xib in Resources */,
+				D25039011CEF2B5000DE7890 /* InsideOfDeskViewController.xib in Resources */,
 				D2D0143B1CDE59AC00BE4BCF /* DailyListTableViewCell.xib in Resources */,
 				D2D013AF1CDCB41E00BE4BCF /* Assets.xcassets in Resources */,
 				D2D013AD1CDCB41E00BE4BCF /* Main.storyboard in Resources */,
@@ -483,23 +544,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BFA0851CF1964500626CCE /* OrdersTableViewCell.m in Sources */,
 				D2D0140D1CDCCE7700BE4BCF /* OrderObject.m in Sources */,
 				D2D0142A1CDD445D00BE4BCF /* BaseViewController.m in Sources */,
 				D2D0143F1CDE957A00BE4BCF /* DailyListServer.m in Sources */,
+				D25039071CEF2BC000DE7890 /* DeskInsideTableViewCell.m in Sources */,
 				D2D013AA1CDCB41E00BE4BCF /* ViewController.m in Sources */,
 				D2D014211CDD0CCC00BE4BCF /* CategoryServer.m in Sources */,
 				D2D014131CDCEFD500BE4BCF /* Server.m in Sources */,
+				D2BFA07F1CF195AF00626CCE /* OrdersListViewController.m in Sources */,
 				D2D014101CDCD1AB00BE4BCF /* ListObject.m in Sources */,
+				D2BFA0781CF0C39D00626CCE /* OrderServer.m in Sources */,
 				D2D013A71CDCB41E00BE4BCF /* AppDelegate.m in Sources */,
 				D2D013FD1CDCC81900BE4BCF /* CategoryObject.m in Sources */,
+				D2BFA0751CF0C38900626CCE /* OrderHelper.m in Sources */,
 				D2D014421CDE95E500BE4BCF /* DailyListHelper.m in Sources */,
 				D2D0143A1CDE59AC00BE4BCF /* DailyListTableViewCell.m in Sources */,
 				D2D013A41CDCB41E00BE4BCF /* main.m in Sources */,
 				D2D0141E1CDD0CA700BE4BCF /* CategoryHelper.m in Sources */,
 				D2D014251CDD169C00BE4BCF /* LoginViewController.m in Sources */,
+				D25039001CEF2B5000DE7890 /* InsideOfDeskViewController.m in Sources */,
 				D2D014351CDDD7EE00BE4BCF /* MainViewController.m in Sources */,
+				D2BFA07B1CF0CE5000626CCE /* Helper.m in Sources */,
 				D2D0142D1CDD465500BE4BCF /* LoginServer.m in Sources */,
+				D250390B1CEF37D900DE7890 /* ProductServer.m in Sources */,
 				D2D014001CDCC81900BE4BCF /* ProductObject.m in Sources */,
+				D250390E1CEF389400DE7890 /* ProductHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

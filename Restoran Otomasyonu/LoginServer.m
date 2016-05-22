@@ -19,7 +19,7 @@
     }
     
     return self;
-
+    
 }
 
 -(void)sendLoginRequestWithUsername:(NSString*)userName andPassword:(NSString*)password {

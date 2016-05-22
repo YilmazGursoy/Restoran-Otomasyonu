@@ -19,10 +19,15 @@
 @implementation LoginViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
     self.usernameTextField.delegate = self;
+    
     self.passwordTextField.delegate = self;
+    
     self.loginServerObject = [[LoginServer alloc] initWithDelegate:self];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,7 +86,7 @@
     
     } else {
     
-        [self showAlertWithTitle:@"Hata" andDescription:@"Giriş Olmadı"];
+        [self showAlertWithTitle:@"Hata" andDescription:@"Giriş Yapılamadı"];
     
     }
 

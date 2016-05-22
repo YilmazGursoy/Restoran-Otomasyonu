@@ -18,6 +18,7 @@
 -(void)getAllCategoriesObject:(NSArray*)insideCategories;
 
 
+
 @end
 
 

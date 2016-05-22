@@ -27,6 +27,8 @@
 -(void)sendDailyListRequest{
     
     DailyListServer *dailyListObject = [[DailyListServer alloc] initWithDelegate:self];
+    
+    [dailyListObject sendRequestToAllDailyListDatas];
 
 }
 

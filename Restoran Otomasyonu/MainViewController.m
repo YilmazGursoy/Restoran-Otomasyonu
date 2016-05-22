@@ -8,6 +8,9 @@
 
 #import "MainViewController.h"
 #import "DailyListTableViewCell.h"
+#import "InsideOfDeskViewController.h"
+#import "OrdersListViewController.h"
+
 
 
 @interface MainViewController ()
@@ -15,16 +18,33 @@
 @property (weak, nonatomic) IBOutlet UILabel *dailyTotalPrice;
 @property (weak, nonatomic) IBOutlet UITableView *dailyListTableView;
 @property (strong, nonatomic) NSMutableArray *dailyListObjects;
+@property (strong, nonatomic) NSArray *allDesks;
 
 @end
 
 @implementation MainViewController
 
+static int deskNumber = 1;
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear: animated];
+    
+    [self setupDeskIsDeskEmptyOrNot];
+    
+    DailyListHelper *listHelper = [[DailyListHelper alloc] initWithDelegate:self];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.allDesks = @[_desk1,_desk2,_desk3,_desk4,_desk5,_desk6,_desk7,_desk8,_desk9,_desk10,_desk11,_desk12];
+    
     self.dailyListTableView.delegate = self;
+    
     self.dailyListTableView.dataSource = self;
+    
+    [self setupDeskIsDeskEmptyOrNot];
     
     DailyListHelper *listHelper = [[DailyListHelper alloc] initWithDelegate:self];
 
@@ -33,12 +53,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)deskButtonPressed:(UIButton *)sender {
-
-    
-
 }
 
 
@@ -62,10 +76,98 @@
     
 }
 
+#pragma mark - DailyListHelperDelegateMethods
+
 -(void)getAllDailyListObjects:(NSArray *)allDailyList {
 
     self.dailyListObjects = [allDailyList mutableCopy];
     [self.dailyListTableView reloadData];
 }
+
+
+#pragma mark - DailyListServerDelegateMethods
+
+-(void)isDeletedAllDailyListDatas:(BOOL)isDeleted{
+
+    if( isDeleted ) {
+    
+        [self showAlertWithTitle:@"Uyarı" andDescription:@"Günlük Birikim Tablosu Temizlenmiştir"];
+        self.dailyListObjects = nil;
+        [self.dailyListTableView reloadData];
+        
+        
+    } else {
+        
+        [self showAlertWithTitle:@"Uyarı" andDescription:@"Günlük Birikim Tablosu temizlenirken bir hata oluştu"];
+        
+    }
+    
+}
+
+#pragma mark - UIButtons
+
+- (IBAction)deskButtonPressed:(UIButton *)sender {
+    
+    InsideOfDeskViewController *VC = [[InsideOfDeskViewController alloc] initWithDeskNumber:sender.currentTitle.intValue];
+    
+    [self.navigationController pushViewController:VC animated:true];
+    
+}
+
+- (IBAction)dayFinishedButtonPressed:(UIButton *)sender {
+    
+    DailyListServer *dailyListServer = [[DailyListServer alloc] initWithDelegate:self];
+    [dailyListServer deleteListParseBackendData];
+    
+}
+
+#pragma mark - HelperMethods
+
+-(void)setupDeskIsDeskEmptyOrNot{
+
+    
+    if( deskNumber <= 12 ) {
+    
+        OrderHelper *sendOrderRequestForDeskIsEmptyOrNot = [[OrderHelper alloc]initWithDelegate:self];
+        
+        [sendOrderRequestForDeskIsEmptyOrNot sendOrderRequestWithDeskID:deskNumber];
+    
+    } else {
+    
+        deskNumber = 1;
+        
+    }
+    
+}
+
+-(void)getAllOrderObject:(NSArray *)orders{
+
+    if( orders.count>0 ) {
+    
+        [self changeDeskBackgroundToFull:deskNumber];
+        
+    } else {
+    
+        [self changeDeskBackgroundColorToEmpty:deskNumber];
+    
+    }
+
+}
+
+-(void)changeDeskBackgroundToFull:(int)deskID{
+    
+    [self.allDesks[deskID-1] setBackgroundColor:[UIColor redColor]];
+    deskNumber += 1;
+    [self setupDeskIsDeskEmptyOrNot];
+}
+
+-(void)changeDeskBackgroundColorToEmpty:(int)deskID{
+
+    [self.allDesks[deskID-1] setBackgroundColor:[UIColor greenColor]];
+    deskNumber += 1;
+    [self setupDeskIsDeskEmptyOrNot];
+
+}
+
 
 @end

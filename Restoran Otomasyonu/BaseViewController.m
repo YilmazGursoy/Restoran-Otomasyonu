@@ -16,28 +16,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
 
-
-
--(void)showAlertWithTitle:(NSString*)alertTitle andDescription:(NSString*)alertDescription {
+-(void)showAlertWithTitle:(NSString*)alertTitle andDescription:(NSString*)alertDescription{
 
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:alertTitle message:alertDescription preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *alertAction = [UIAlertAction actionWithTitle:@"Tamam" style:UIAlertActionStyleDefault handler:nil];
+    
     
     [alertController addAction:alertAction];
     
     [self presentViewController:alertController animated:true completion:nil];
 
 }
+
+-(IBAction)backButtonPressed:(UIButton *)sender {
+    
+    [self.navigationController popViewControllerAnimated:true];
+    
+}
+
 
 @end

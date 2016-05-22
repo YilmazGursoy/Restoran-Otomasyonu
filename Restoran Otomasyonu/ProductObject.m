@@ -10,11 +10,11 @@
 
 @implementation ProductObject
 
-+(ProductObject*)getProductObjectWithName:(NSString *)productName andProductDesc:(NSString*)productDesc andPrice:(int)price andState:(int)state andCategoryID:(int)categoryID {
++(ProductObject*)getProductObjectWithName:(NSString *)productName andProductDesc:(NSString*)productDesc andPrice:(double)price andState:(int)state andCategoryID:(int)categoryID {
 
     ProductObject *object = [[ProductObject alloc] init];
     
-    object.productName = productName;
+    object.productName = (NSString*)productName;
     
     object.productDesc = productDesc;
     

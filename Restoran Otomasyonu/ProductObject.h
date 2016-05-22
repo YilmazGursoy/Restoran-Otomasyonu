@@ -13,7 +13,7 @@
 
 @property (nonatomic) int categoryID;
 
-@property (nonatomic) int price;
+@property (nonatomic) double price;
 
 @property (nonatomic) int state;
 
@@ -21,6 +21,8 @@
 
 @property (strong, nonatomic) NSString *productDesc;
 
-+(ProductObject*)getProductObjectWithName:(NSString *)productName andProductDesc:(NSString*)productDesc andPrice:(int)price andState:(int)state andCategoryID:(int)categoryID;
+
+
++(ProductObject*)getProductObjectWithName:(NSString *)productName andProductDesc:(NSString*)productDesc andPrice:(double)price andState:(int)state andCategoryID:(int)categoryID;
 
 @end

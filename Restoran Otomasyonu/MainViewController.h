@@ -9,8 +9,11 @@
 #import "BaseViewController.h"
 #import "DailyListHelper.h"
 #import "ListObject.h"
+#import "DailyListServer.h"
+#import "OrderObject.h"
+#import "OrderHelper.h"
 
-@interface MainViewController : BaseViewController < UITableViewDelegate, UITableViewDataSource , DailyListHelperDelegate>
+@interface MainViewController : BaseViewController < UITableViewDelegate, UITableViewDataSource , DailyListHelperDelegate, DailyListServerDelegate, OrderHelperDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *desk1;
 @property (weak, nonatomic) IBOutlet UIButton *desk2;
 @property (weak, nonatomic) IBOutlet UIButton *desk3;
