@@ -10,4 +10,28 @@
 
 @implementation Server
 
++(NSString*)getUsername {
+
+    return [PFUser currentUser].username;
+
+}
+
++(void)userLogOut {
+
+    [PFUser logOutInBackgroundWithBlock:^(NSError * _Nullable error) {
+       
+        if( error ) {
+        
+            NSLog(@"LogOut failed");
+        
+        } else {
+        
+            NSLog(@"Logout Succeeded");
+        
+        }
+        
+    }];
+    
+}
+
 @end

@@ -21,6 +21,7 @@
                 <outlet property="desk7" destination="OOd-Sz-k8M" id="FJV-66-aeo"/>
                 <outlet property="desk8" destination="FgY-TE-yvG" id="1Ie-9p-dWK"/>
                 <outlet property="desk9" destination="UCB-FI-ifP" id="gEc-Fi-TBw"/>
+                <outlet property="usernameLabel" destination="DSE-Mo-tXV" id="PvB-jh-6hR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -64,6 +65,9 @@
                                     <integer key="value" value="6"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="logOutButtonPressed:" destination="-1" eventType="touchUpInside" id="0Lb-wu-UFI"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,7 +79,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="49U-Nr-45s">
                             <rect key="frame" x="8" y="8" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="1" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -86,7 +89,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oCD-lb-UhU">
                             <rect key="frame" x="143" y="8" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="2" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -97,7 +99,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kt3-19-1C3">
                             <rect key="frame" x="277" y="8" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="3" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -108,7 +109,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ve9-sW-dnq">
                             <rect key="frame" x="8" y="86" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="4" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -119,7 +119,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r5Y-JM-utV">
                             <rect key="frame" x="143" y="86" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="5" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -130,7 +129,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OOd-Sz-k8M">
                             <rect key="frame" x="8" y="164" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="7" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -141,7 +139,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FgY-TE-yvG">
                             <rect key="frame" x="143" y="164" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="8" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -152,7 +149,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pmy-cc-TkS">
                             <rect key="frame" x="8" y="242" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="10" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -163,7 +159,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Onm-ld-pYe">
                             <rect key="frame" x="143" y="242" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="11" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -174,7 +169,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ADO-8x-bMV">
                             <rect key="frame" x="277" y="86" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="6" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -185,7 +179,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UCB-FI-ifP">
                             <rect key="frame" x="277" y="164" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="9" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -196,7 +189,6 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="REw-Ku-MNZ">
                             <rect key="frame" x="277" y="242" width="115" height="70"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="12" backgroundImage="Desk">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -215,7 +207,7 @@
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40.5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XaJ-MK-cTW">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XaJ-MK-cTW">
                                     <rect key="frame" x="258" y="3" width="118" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>

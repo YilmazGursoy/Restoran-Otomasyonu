@@ -11,4 +11,9 @@
 
 @interface Server : NSObject
 
++(NSString*)getUsername;
+
++(void)userLogOut;
+
+
 @end

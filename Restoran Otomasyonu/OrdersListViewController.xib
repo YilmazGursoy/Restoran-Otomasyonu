@@ -60,7 +60,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.35202508220000001" green="0.2323179692" blue="0.41553015300000001" alpha="1" colorSpace="calibratedRGB"/>
             <point key="canvasLocation" x="407" y="383"/>
         </view>
     </objects>
